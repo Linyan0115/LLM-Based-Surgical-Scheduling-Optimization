@@ -4,36 +4,37 @@
 
 This project builds a real-time surgical scheduling system that integrates:
 
-LLM-based constraint extraction (GLM-4 via Zhipu API)
+- LLM-based constraint extraction (GLM-4 via Zhipu API)
 
-Chain-of-Expert multi-agent processing
+- Chain-of-Expert multi-agent processing
 
-MILP optimization using CPLEX
+- MILP optimization using CPLEX
 
 The system automates surgical case analysis, surgery sequencing, and equipment allocation.
 Tested on 1000+ surgeries across 20 operating rooms, it achieved:
 
-18% improvement in scheduling efficiency
+- 18% improvement in scheduling efficiency
 
-22% higher resource utilization
+- 22% higher resource utilization
 
-20% faster real-time decision speed
+- 20% faster real-time decision speed
 
 ## System Pipeline
 
 ## Key Components
-3.1 LLM + COE Framework
 
-Converts policies, surgeon notes, and hospital rules into structured constraints
+### LLM + COE Framework
 
-Modules: constraint engineer, data validator, policy interpreter
+- Converts policies, surgeon notes, and hospital rules into structured constraints
 
-Ensures model-ready inputs for optimization
+- Modules: constraint engineer, data validator, policy interpreter
 
-3.2 MILP Optimization (CPLEX)
+- Ensures model-ready inputs for optimization
 
-Handles OR assignment, sequencing, surgeon availability, machine allocation
+### MILP Optimization (CPLEX)
 
-Dynamic model selection based on case types
+- Handles OR assignment, sequencing, surgeon availability, machine allocation
 
-Tuned for real-time scheduling
+- Dynamic model selection based on case types
+
+- Tuned for real-time scheduling
