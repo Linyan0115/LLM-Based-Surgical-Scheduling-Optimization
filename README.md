@@ -19,22 +19,14 @@ Tested on 1000+ surgeries across 20 operating rooms, it achieved:
 
 - 20% faster real-time decision speed
 
-## System Pipeline
+## Abstract paper
+![LLM_Abstract-images-0](https://github.com/user-attachments/assets/35962ce2-194a-4e82-8a53-221f93905d36)
 
-## Key Components
+![LLM_Abstract-images-1](https://github.com/user-attachments/assets/0dd4eb84-1a6a-4d5d-a413-ade5661ec384)
 
-### LLM + COE Framework
 
-- Converts policies, surgeon notes, and hospital rules into structured constraints
+## Vidualization for using in industry
+![Screen Recording 2025-12-02 at 6 58 29 PM](https://github.com/user-attachments/assets/6b17a0de-c2f6-4d54-b8e8-d1bf0e2ca59b)
 
-- Modules: constraint engineer, data validator, policy interpreter
 
-- Ensures model-ready inputs for optimization
 
-### MILP Optimization (CPLEX)
-
-- Handles OR assignment, sequencing, surgeon availability, machine allocation
-
-- Dynamic model selection based on case types
-
-- Tuned for real-time scheduling
