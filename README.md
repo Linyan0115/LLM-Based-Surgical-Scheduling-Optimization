@@ -26,7 +26,5 @@ Tested on 1000+ surgeries across 20 operating rooms, it achieved:
 
 
 ## Vidualization for using in industry
-![Screen Recording 2025-12-02 at 6 58 29 PM](https://github.com/user-attachments/assets/6b17a0de-c2f6-4d54-b8e8-d1bf0e2ca59b)
-
-
+![无标题](https://github.com/user-attachments/assets/95011454-d4e5-436b-a715-517c593bd97a)
 
